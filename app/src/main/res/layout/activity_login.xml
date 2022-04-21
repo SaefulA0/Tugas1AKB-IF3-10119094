@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:gravity="center"
+        android:text="@string/Lologin"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/logusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/logusername"
+        android:layout_below="@id/login"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/logpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lopassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/logusername"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logpassword"
+        android:text="@string/lologin"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logpassword"
+        android:layout_toLeftOf="@+id/btn_login"
+        android:layout_marginRight="10dp"
+        android:text="@string/Loregister"
+
+        />
+</RelativeLayout>

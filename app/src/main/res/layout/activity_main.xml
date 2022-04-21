@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/namamain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Nama : Saeful Anwar Oktariansah"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/nimmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="NIM : 10119094"
+        android:textColor="@color/black"
+        android:layout_below="@id/namamain"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/kelasmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Kelas : IF-3"
+        android:textColor="@color/black"
+        android:layout_below="@id/nimmain"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/waktumain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Waktu pengerjaan : 21 April 2022"
+        android:textColor="@color/black"
+        android:layout_below="@id/kelasmain"
+        android:textSize="16sp"
+        android:layout_marginBottom="50dp"
+        />
+    <Button
+        android:id="@+id/profilemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_margin="5dp"
+        android:layout_below="@id/waktumain"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/logoutmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_margin="5dp"
+        android:layout_below="@id/waktumain"
+        android:layout_toLeftOf="@id/profilemain"
+        />
+</RelativeLayout>

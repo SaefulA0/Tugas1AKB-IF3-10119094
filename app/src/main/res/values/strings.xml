@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tugas1AKB-IF3-10119094</string>
+    <string name="verifikasi_password">Verifikasi Password</string>
+    <string name="regregister">Register</string>
+    <string name="regusername">Username</string>
+    <string name="regpassword">Password</string>
+    <string name="btn_regregister">Register</string>
+    <string name="btn_regback">Back</string>
+    <string name="logusername">Username</string>
+    <string name="Lologin">Login</string>
+    <string name="lologin">Login</string>
+    <string name="lopassword">Password</string>
+    <string name="Loregister">Register</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="spkelas">Kelas</string>
+    <string name="spnim1">NIM</string>
+    <string name="spnim2">: 10119094</string>
+    <string name="spnama2">: Saeful Anwar Oktariansah</string>
+    <string name="spnama1">Nama</string>
+    <string name="spkelas2">: IF3</string>
+    <string name="spbtnlogin">Login</string>
+    <string name="nama_saeful_anwar">Nama : Saeful Anwar</string>
+    <string name="nim_10119094">NIM : 10119094</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/saeful"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/namaprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_saeful_anwar"
+        android:layout_below="@id/img"
+        android:textColor="@color/black"
+        android:layout_marginTop="16sp"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/nimprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nim_10119094"
+        android:layout_below="@id/namaprofile"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/kelasprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas : IF-3"
+        android:layout_below="@id/nimprofile"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/deksripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Deskripsi :"
+        android:layout_below="@id/kelasprofile"
+        />
+    <TextView
+        android:id="@+id/isideskripsi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa Universitas Komputer Indonesia program studi teknik informatika"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/deksripsi"
+        android:layout_marginVertical="8sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_below="@id/isideskripsi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        />
+</RelativeLayout>
