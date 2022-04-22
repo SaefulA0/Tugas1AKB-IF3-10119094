@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/login"
@@ -20,8 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/logusername"
-        android:layout_below="@id/login"
         android:inputType="text"
+        android:layout_below="@id/login"
         />
     <EditText
         android:id="@+id/logpassword"
@@ -29,25 +30,24 @@
         android:layout_height="wrap_content"
         android:hint="@string/lopassword"
         android:inputType="textPassword"
-        android:layout_below="@id/logusername"
         android:layout_marginBottom="16dp"
+        android:layout_below="@id/logusername"
         />
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logpassword"
         android:text="@string/lologin"
+        android:layout_below="@id/logpassword"
         android:layout_alignParentRight="true"
         />
     <Button
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logpassword"
-        android:layout_toLeftOf="@+id/btn_login"
         android:layout_marginRight="10dp"
         android:text="@string/Loregister"
-
+        android:layout_below="@id/logpassword"
+        android:layout_toLeftOf="@id/btn_login"
         />
 </RelativeLayout>

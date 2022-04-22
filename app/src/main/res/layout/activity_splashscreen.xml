@@ -1,82 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:background="@drawable/background"
+    tools:context=".SplashScreenActivity"
+    android:padding="16sp"
+    tools:ignore="ExtraText">
 
-    <TextView
-        android:id="@+id/spsc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16sp"
-        android:text="@string/splash_screen"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="24dp"
-        android:textColor="@color/black"
-        />
-    <TextView
-        android:id="@+id/spnama1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="8sp"
-        android:paddingHorizontal="16sp"
-        android:text="@string/spnama1"
-        android:layout_below="@id/spsc"
-        android:textColor="@color/black"
-        />
     <TextView
         android:id="@+id/spnama2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:paddingHorizontal="16sp"
-        android:text="@string/spnama2"
-        android:layout_below="@id/spsc"
-        android:layout_toRightOf="@id/spnama1"
-        android:textColor="@color/black"
-        />
-    <TextView
-        android:id="@+id/spnim1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:paddingHorizontal="16sp"
-        android:text="@string/spnim1"
-        android:layout_below="@id/spnama2"
-        android:textColor="@color/black"
+        android:text="Saeful Anwar Oktariansah"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/spnim2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:paddingHorizontal="30dp"
-        android:text="@string/spnim2"
+        android:text="10119094"
         android:layout_below="@id/spnama2"
-        android:layout_toRightOf="@id/spnim1"
-        android:textColor="@color/black"
-        />
-    <TextView
-        android:id="@+id/spkelas1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:paddingHorizontal="16dp"
-        android:text="@string/spkelas"
-        android:layout_below="@id/spnim1"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/spkelas2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:paddingHorizontal="20sp"
-        android:text="@string/spkelas2"
+        android:text="IF-3"
         android:layout_below="@id/spnim2"
-        android:layout_toRightOf="@id/spkelas1"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/waktusp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="21/04/2022"
+        android:layout_below="@id/spkelas2"
+        android:textColor="@color/white"
         />
     <Button
         android:id="@+id/spbtnlogin"
@@ -84,7 +49,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:text="@string/spbtnlogin"
-        android:layout_below="@id/spkelas2"
-        android:layout_alignParentRight="true"
+        android:layout_below="@id/waktusp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         />
 </RelativeLayout>
