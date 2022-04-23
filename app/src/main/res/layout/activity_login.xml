@@ -41,6 +41,7 @@
             android:hint="Password"
             android:padding="16sp"
             android:layout_marginTop="16sp"
+            android:inputType="textPassword"
             />
     </LinearLayout>
     <Button
@@ -63,5 +64,4 @@
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         />
-
 </RelativeLayout>

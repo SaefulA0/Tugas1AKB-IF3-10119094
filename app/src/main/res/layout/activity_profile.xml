@@ -11,10 +11,21 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/saeful"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="5dp"
+        android:layout_below="@+id/datadiri"
+        />
+    <TextView
+        android:id="@+id/datadiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Diri"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
         />
     <TextView
         android:id="@+id/namaprofile"
