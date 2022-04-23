@@ -8,48 +8,21 @@
     android:padding="16sp"
     tools:ignore="ExtraText">
 
-    <TextView
-        android:id="@+id/spnama2"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="Saeful Anwar Oktariansah"
-        android:textColor="@color/white"
+        android:src="@drawable/welcome"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
         />
-    <TextView
-        android:id="@+id/spnim2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="10119094"
-        android:layout_below="@id/spnama2"
-        android:textColor="@color/white"
-        />
-    <TextView
-        android:id="@+id/spkelas2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="IF-3"
-        android:layout_below="@id/spnim2"
-        android:textColor="@color/white"
-        />
-    <TextView
-        android:id="@+id/waktusp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="21/04/2022"
-        android:layout_below="@id/spkelas2"
-        android:textColor="@color/white"
-        />
+
     <Button
         android:id="@+id/spbtnlogin"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="50sp"
-        android:text="@string/spbtnlogin"
-        android:layout_below="@id/waktusp"
+        android:text="Click Here"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"

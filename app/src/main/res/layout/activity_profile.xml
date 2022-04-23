@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="18dp"
+    android:background="@drawable/loginbg"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
@@ -72,5 +73,7 @@
         android:layout_below="@id/isideskripsi"
         android:layout_alignParentRight="true"
         android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         />
 </RelativeLayout>

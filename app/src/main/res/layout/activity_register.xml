@@ -2,7 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/loginbg"
+    >
     <TextView
         android:id="@+id/regregister"
         android:layout_width="match_parent"
@@ -13,49 +15,61 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="24sp"
+        android:layout_marginTop="70dp"
         />
-    <EditText
-        android:id="@+id/regusername"
+    <LinearLayout
+        android:id="@+id/fieldlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/regusername"
+        android:orientation="vertical"
         android:layout_below="@id/regregister"
-        android:inputType="text"
-        />
-    <EditText
-        android:id="@+id/regpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/regpassword"
-        android:layout_below="@id/regusername"
-        android:inputType="textPassword"
-        />
-    <EditText
-        android:id="@+id/verpass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:hint="@string/verifikasi_password"
-        android:layout_below="@id/regpassword"
-        android:inputType="textPassword"
-        />
+        android:padding="18sp"
+        android:layout_marginBottom="50dp">
+        <EditText
+            android:id="@+id/Lolog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Username"
+            android:padding="16sp"
+            />
+        <EditText
+            android:id="@+id/LoPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Password"
+            android:padding="16sp"
+            android:layout_marginTop="16sp"
+            />
+        <EditText
+            android:id="@+id/LoComPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Confirm Password"
+            android:padding="16sp"
+            android:layout_marginTop="16sp"
+            />
+    </LinearLayout>
     <Button
         android:id="@+id/btn_regregister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_regregister"
-        android:layout_below="@id/verpass"
+        android:layout_below="@id/fieldlogin"
         android:layout_alignParentRight="true"
+        android:backgroundTint="@color/black"
         />
     <Button
         android:id="@+id/regback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_regback"
-        android:layout_below="@id/verpass"
         android:layout_marginRight="10sp"
         android:layout_toLeftOf="@id/btn_regregister"
+        android:layout_below="@id/fieldlogin"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         />
-
-
 </RelativeLayout>

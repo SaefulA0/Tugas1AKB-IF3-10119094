@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:background="@drawable/loginbg">
     <TextView
         android:id="@+id/login"
         android:layout_width="match_parent"
@@ -15,31 +15,42 @@
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/black"
+        android:layout_marginTop="70dp"
         />
-    <EditText
-        android:id="@+id/logusername"
+    <LinearLayout
+        android:id="@+id/fieldlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/logusername"
-        android:inputType="text"
+        android:orientation="vertical"
         android:layout_below="@id/login"
-        />
-    <EditText
-        android:id="@+id/logpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/lopassword"
-        android:inputType="textPassword"
-        android:layout_marginBottom="16dp"
-        android:layout_below="@id/logusername"
-        />
+        android:padding="16sp"
+        android:layout_marginBottom="50dp">
+        <EditText
+            android:id="@+id/Lolog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Username"
+            android:padding="16sp"
+            />
+        <EditText
+            android:id="@+id/LoPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Password"
+            android:padding="16sp"
+            android:layout_marginTop="16sp"
+            />
+    </LinearLayout>
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lologin"
-        android:layout_below="@id/logpassword"
+        android:layout_below="@id/fieldlogin"
         android:layout_alignParentRight="true"
+        android:backgroundTint="@color/black"
         />
     <Button
         android:id="@+id/register"
@@ -47,7 +58,10 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:text="@string/Loregister"
-        android:layout_below="@id/logpassword"
+        android:layout_below="@id/fieldlogin"
         android:layout_toLeftOf="@id/btn_login"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         />
+
 </RelativeLayout>
